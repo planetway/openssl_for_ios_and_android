@@ -1,0 +1,9 @@
+# Building cURL and OpenSSL for iOS
+
+cd tools
+./build-curl4ios.sh
+./build-openssl4ios.sh
+
+# Building cURL and OpenSSL for Android
+
+make && make copy
